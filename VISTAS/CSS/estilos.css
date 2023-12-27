@@ -1,0 +1,109 @@
+h1 {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	text-align: center;
+}
+
+label {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: 120%;
+}
+
+.boton {
+	background-color:rgb(97, 203, 113) !important;
+	border: 0px;
+	height: 40px;
+	width: 30%;
+	align-content: center;
+	color: black;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
+}
+
+.caja-boton {
+	display: flex;
+	justify-content: center;
+}
+
+.contenedor{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.imagen{
+	flex: 1 1 1%;
+}
+
+img{
+	width: 100%;
+	padding: 2%;
+	margin-left: 20%;
+}
+
+form{
+	flex: 1 1 1%;
+	padding: 1% 4%;
+	margin-right: 15%;
+}
+
+.contenedor-eliminar{
+    margin-left: 10%;
+}
+
+p{
+	margin-left: 30%;
+	font-size: 120%;
+}
+
+th{
+    width: 1050px !important;
+	justify-content: center;
+}
+
+.tabla{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 95%;
+}
+
+header{
+    background-color: rgb(97, 203, 113);
+    text-align: right;
+}
+
+.icono{
+	font-size: 130%;
+}
+
+.enlace1{
+	text-decoration: none;
+	color: blue;
+	font-size: 100%;
+}
+
+.enlace2{
+	text-decoration: none;
+	color: red;
+	font-size: 100%;
+	margin-left: 5%;
+}
+
+h2{
+	margin-left: 3%;
+}
+
+/* Estilo para el contenedor principal de la lista desplegable */
+.buscar {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para las opciones de la lista desplegable */
+#opcion {
+    padding: 8px;
+    font-size: 14px;
+    background-color: #ffffff;
+}
